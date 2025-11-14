@@ -1,0 +1,14 @@
+# Ignore local envs and node modules when working inside src
+.env
+.env.local
+node_modules/
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Build artifacts
+../public/css/tailwind/tailwind.css
+../public/css/tailwind/tailwind.min.css
+
